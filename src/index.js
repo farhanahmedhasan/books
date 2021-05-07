@@ -30,28 +30,36 @@ const books = [
   },
   {
     id: 4,
-    author: 'Emily Watson',
-    title: 'Candlekeep Mysteries',
-    imgSrc: 'https://images-na.ssl-images-amazon.com/images/I/81Hkjr8InTL._AC_UL200_SR200,200_.jpg',
+    author: 'Elizabeth Heiskell',
+    title: 'Come On Over!',
+    imgSrc: 'https://images-na.ssl-images-amazon.com/images/I/51+5n7xbYSL._AC_SX184_.jpg',
     desc:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti, commodi ex eum vel voluptatibus blanditiis odio reprehe...',
   },
   {
     id: 5,
-    author: 'Emily Watson',
-    title: 'Candlekeep Mysteries',
-    imgSrc: 'https://images-na.ssl-images-amazon.com/images/I/81Hkjr8InTL._AC_UL200_SR200,200_.jpg',
+    author: 'James Clear',
+    title: 'Atomic Habits',
+    imgSrc: 'https://images-na.ssl-images-amazon.com/images/I/51Tlm0GZTXL._AC_SX184_.jpg',
     desc:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti, commodi ex eum vel voluptatibus blanditiis odio reprehe...',
   },
   {
     id: 6,
-    author: 'Emily Watson',
-    title: 'Candlekeep Mysteries',
-    imgSrc: 'https://images-na.ssl-images-amazon.com/images/I/81Hkjr8InTL._AC_UL200_SR200,200_.jpg',
+    author: 'Shannon Bream',
+    title: 'The Women of the Bible Speak',
+    imgSrc: 'https://images-na.ssl-images-amazon.com/images/I/516Yy6yh8XL._AC_SX184_.jpg',
     desc:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti, commodi ex eum vel voluptatibus blanditiis odio reprehe...',
     btn: <button className='btn btn-primary'>Ok</button>,
+  },
+  {
+    id: 6,
+    author: 'Ann Whitford Paul, David Walker',
+    title: 'If Animals Kissed Good Night',
+    imgSrc: 'https://images-na.ssl-images-amazon.com/images/I/51PRQuO-xjL._AC_SX184_.jpg',
+    desc:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti, commodi ex eum vel voluptatibus blanditiis odio reprehe...',
   },
 ];
 
