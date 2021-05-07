@@ -76,8 +76,8 @@ const RowBookList = () => {
     <div className='row'>
       {books.map((book) => {
         return (
-          <div className='col-md-4 py-4'>
-            <Book key={book.id} {...book}></Book>
+          <div className='col-md-4 py-4' key={book.id}>
+            <Book {...book}></Book>
           </div>
         );
       })}
