@@ -28,6 +28,9 @@ section {
 .booklist__img {
   display: block;
   margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
 }
 .booklist__titles {
   font-weight: 600;
