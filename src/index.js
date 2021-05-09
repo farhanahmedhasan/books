@@ -82,13 +82,11 @@ const ContainerBookList = () => {
 const RowBookList = () => {
   return (
     <div className='row'>
-      {books.map((book) => {
-        return (
+      {books.map((book) => (
           <div className='col-md-4 py-4' key={book.id}>
             <Book {...book}></Book>
           </div>
-        );
-      })}
+        ))}
     </div>
   );
 };
